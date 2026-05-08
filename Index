@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <header class="site-header">
+      <h1> worstmistake </h1>
+      <p class="site-desc">art, music, writing, and whatever else.</p>
+      <nav class="top-nav">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+      </nav>
+    </header>
+
+    <div class="columns">
+
+      <!-- LEFT COLUMN: writing / diary -->
+      <section class="col">
+        <h2>writing</h2>
+        <ul class="link-list">
+          <li><a href="entries/entry-03.html">may 8 — new painting finished</a></li>
+          <li><a href="entries/entry-02.html">may 3 — late night, new sketchbook</a></li>
+          <li><a href="entries/entry-01.html">april 28 — hello, first post</a></li>
+          <!-- copy a line above to add a new entry -->
+        </ul>
+      </section>
+
+      <!-- MIDDLE COLUMN: art -->
+      <section class="col">
+        <h2>art</h2>
+        <ul class="link-list">
+          <li><a href="art/piece-03.html">untitled — may 2026</a></li>
+          <li><a href="art/piece-02.html">wip sketch — april 2026</a></li>
+          <li><a href="art/piece-01.html">first piece — april 2026</a></li>
+          <!-- copy a line above to add a new piece -->
+        </ul>
+      </section>
+
+      <!-- RIGHT COLUMN: music -->
+      <section class="col">
+        <h2>music</h2>
+        <ul class="link-list">
+          <li><a href="music/track-01.html">song title — artist</a></li>
+          <li><a href="music/track-02.html">another song — artist</a></li>
+          <!-- copy a line above to add a new track -->
+        </ul>
+      </section>
+
+    </div>
+
+    <footer class="site-footer">
+      <p>made by [your name] &mdash; <a href="about.html">about this site</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
