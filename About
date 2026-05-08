@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about — my site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <a href="index.html" class="back-link">&larr; back</a>
+
+    <div class="entry-header">
+      <div class="entry-title">about</div>
+    </div>
+
+    <div class="about-body">
+      <p>
+        Hi, I'm [your name]. Write a little intro about yourself here.
+        This is your space — say as much or as little as you like.
+      </p>
+
+      <p>
+        I make [art / music / writing / all of the above]. This site is where I put things
+        I want to keep somewhere. No algorithm, no feed, just a page.
+      </p>
+
+      <h2>contact</h2>
+      <p>
+        You can reach me at <a href="mailto:you@email.com">you@email.com</a>
+        or find me on <a href="#">instagram</a>.
+      </p>
+
+      <h2>this site</h2>
+      <p>
+        Built with plain HTML and CSS, hosted on GitHub Pages.
+        No tracking, no ads.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
